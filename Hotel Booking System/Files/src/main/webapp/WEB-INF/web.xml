@@ -1,0 +1,38 @@
+<web-app>
+    <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.hotel.controller.RegisterServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+</servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.hotel.controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BookingServlet</servlet-name>
+        <servlet-class>com.hotel.controller.BookingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookingServlet</servlet-name>
+        <url-pattern>/BookingServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FinalServlet</servlet-name>
+        <servlet-class>com.hotel.controller.FinalServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FinalServlet</servlet-name>
+        <url-pattern>/FinalServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
