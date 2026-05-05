@@ -101,3 +101,9 @@ Thank you for checking out this Online Hotel Booking System project! I hope it h
 If you like this project, feel free to ⭐ star the repository and share your feedback. For any issues or suggestions, please open an issue or submit a pull request to improve the project.
 
 Happy Coding! 🚀
+
+---
+
+## 👨‍💻 Author
+
+Tirth R. Modi  
